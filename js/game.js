@@ -66,7 +66,10 @@ class Game{
                     
                      //text to display player score.
 
-                     
+                     fill("red")
+                        text("PLAYER 1 : " + allPlayers.player1.score, 50, 50);
+                     fill("green")
+                        text("PLAYER 2 : " + allPlayers.player2.score, 50, 100);
                  
                  }
                 
